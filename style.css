@@ -1,0 +1,386 @@
+.img {
+  width: 250px;
+  height: 50px;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  
+  width: 400px;
+}
+.nav {
+  
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+}
+.icon {
+
+  display: flex;
+  justify-content: center;
+  height: 100 px;
+}
+.title {
+  text-align: center;
+  font-family: "Work Sans", Arial, sans-serif;
+
+  font-size: 34px;
+
+  font-weight: 300;
+
+  line-height: 44.2px;
+
+  color: rgb(0, 179, 155);
+}
+.DropDown {
+  position: relative;
+}
+.DropDownContent {
+  display: none;
+  position: absolute;
+  margin-left: -50px;
+  box-shadow: 1px 1px 3px 1px gray;
+}
+li a {
+  list-style: none;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* li:hover a {
+  color: #19d1b8;
+} */
+.DropDown:hover .DropDownContent {
+  display: block;
+}
+.parag {
+  display: flex;
+  justify-content: space-around;
+ 
+  width: 90%;
+  margin-left: 5%;
+}
+.patient {
+  width: 30%;
+  border-radius: 10px;
+  /* font-family:  Roboto, Arial, sans-serif; */
+
+  background-color: #19d1b8;
+  /* font-size: 16px;
+    
+    font-weight: 400;
+    
+    line-height: 20.8px; */
+
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+.doctor {
+  border-radius: 10px;
+  width: 30%;
+  /* font-family: "Work Sans", Arial, sans-serif; */
+  background-color: #508fe2;
+
+  /* font-size: 24px;
+
+font-weight: 300;
+
+line-height: 28.8px;
+
+color: rgb(255, 255, 255); */
+}
+.work-space {
+  display: flex;
+  margin-left: 5%;
+  justify-content: space-around;
+  width: 90%;
+  height: 300px;
+}
+.clinic {
+  border-radius: 10px;
+  width: 30%;
+  background-color: #2e3945;
+  /* font-family: "Work Sans", Arial, sans-serif;
+
+    font-size: 26px;
+    
+    font-weight: 400;
+    
+    line-height: 33.8px;
+    
+    color: rgb(255, 255, 255) */
+}
+.titre {
+  font-family: "Work Sans", Arial, sans-serif;
+
+  font-size: 26px;
+
+  font-weight: 400;
+
+  line-height: 33.8px;
+
+  color: rgb(255, 255, 255);
+}
+.para {
+  font-family: "Work Sans", Arial, sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 300;
+
+  line-height: 28.8px;
+
+  color: rgb(255, 255, 255);
+}
+.Choice {
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 19.2px;
+
+  font-weight: 400;
+
+  line-height: 24.96px;
+
+  color: rgb(255, 255, 255);
+
+  margin-bottom: 5%;
+  border: transparent;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.section {
+  display: flex;
+
+  
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-around;
+  height: 150px;
+}
+.firtp {
+ 
+  width: 30%;
+  font-family: "Work Sans", Arial, sans-serif;
+
+  font-size: 26px;
+
+  font-weight: 300;
+
+  line-height: 33.8px;
+
+  color: rgb(0, 179, 155);
+}
+.paaaa{
+    width: 25%;
+}
+.secondP {
+  display: flex;
+  width: 60%;
+  text-decoration: none;
+  justify-content: space-around;
+ 
+  flex-wrap: wrap;
+}
+.secondP p:hover {
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 20.8px;
+
+  color: rgb(61, 131, 223);
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+.logo {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.logo:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+a:hover {
+  color: rgb(0, 179, 155);
+}
+.text1 {
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 28px;
+
+  color: rgb(116, 116, 116);
+}
+.parent_section {
+  background-color: #d5f4f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.parent_title {
+  font-family: "Work Sans", Arial, sans-serif;
+
+  font-size: 34px;
+
+  font-weight: 300;
+
+  line-height: 44.2px;
+
+  color: rgb(0, 179, 155);
+}
+.child_title {
+  font-family: "Work Sans", Arial, sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 300;
+
+  line-height: 31.2px;
+
+  color: rgb(0, 179, 155);
+  text-align: center;
+}
+.para_styl {
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 13px;
+
+  font-weight: 400;
+
+  line-height: 16.9px;
+
+  color: rgb(116, 116, 116);
+}
+.child_styl {
+  height: 40%;
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 13px;
+
+  font-weight: 400;
+
+  line-height: 16.9px;
+
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.child1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+.child2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 40%;
+ 
+}
+.division {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+ 
+}
+.parr {
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 24px;
+
+  color: rgb(116, 116, 116);
+}
+.last_title {
+  font-family: "Work Sans", Arial, sans-serif;
+
+  font-size: 30px;
+
+  font-weight: 300;
+
+  line-height: 39px;
+
+  color: rgb(0, 179, 155);
+}
+.last_par {
+  font-family: Roboto, Arial, sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 24px;
+
+  color: rgb(116, 116, 116);
+}
+.di_center {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+}
+.Grid_container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 5px;
+  margin-left: 10%;
+}
+.grid_item_picture {
+  padding: 10px;
+
+  font-size: 30px;
+  text-align: center;
+}
+.grid_item_picture:hover {
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.grid_item_link:hover {
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.grid_item_link {
+  padding-top: 0px;
+  font-size: 10px;
+}
+.button {
+  background-color: #1662c6;
+  border-radius: 5px;
+  color: white;
+  border-color: white;
+  height: 30px;
+}
+.last_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.last_button {
+  background-color: #1662c6;
+  border-radius: 5px;
+  color: white;
+  border-color: white;
+  height: 30px;
+  width: 300px;
+}
